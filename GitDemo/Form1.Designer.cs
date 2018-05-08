@@ -43,6 +43,7 @@
             this.Btn1.TabIndex = 0;
             this.Btn1.Text = "1";
             this.Btn1.UseVisualStyleBackColor = true;
+            this.Btn1.Click += new System.EventHandler(this.Btn1_Click);
             // 
             // Btn2
             // 
@@ -53,6 +54,7 @@
             this.Btn2.TabIndex = 1;
             this.Btn2.Text = "2";
             this.Btn2.UseVisualStyleBackColor = true;
+            this.Btn2.Click += new System.EventHandler(this.Btn2_Click);
             // 
             // Btn3
             // 
@@ -63,6 +65,7 @@
             this.Btn3.TabIndex = 2;
             this.Btn3.Text = "3";
             this.Btn3.UseVisualStyleBackColor = true;
+            this.Btn3.Click += new System.EventHandler(this.Btn3_Click);
             // 
             // Btn4
             // 
@@ -73,6 +76,7 @@
             this.Btn4.TabIndex = 3;
             this.Btn4.Text = "4";
             this.Btn4.UseVisualStyleBackColor = true;
+            this.Btn4.Click += new System.EventHandler(this.Btn4_Click);
             // 
             // Form1
             // 
