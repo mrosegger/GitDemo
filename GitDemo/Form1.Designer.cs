@@ -32,6 +32,7 @@
             this.Btn2 = new System.Windows.Forms.Button();
             this.Btn3 = new System.Windows.Forms.Button();
             this.Btn4 = new System.Windows.Forms.Button();
+            this.lbl_counter = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Btn1
@@ -78,11 +79,21 @@
             this.Btn4.UseVisualStyleBackColor = true;
             this.Btn4.Click += new System.EventHandler(this.Btn_Click);
             // 
+            // lbl_counter
+            // 
+            this.lbl_counter.AutoSize = true;
+            this.lbl_counter.Location = new System.Drawing.Point(132, 265);
+            this.lbl_counter.Name = "lbl_counter";
+            this.lbl_counter.Size = new System.Drawing.Size(13, 13);
+            this.lbl_counter.TabIndex = 4;
+            this.lbl_counter.Text = "0";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(284, 287);
+            this.Controls.Add(this.lbl_counter);
             this.Controls.Add(this.Btn4);
             this.Controls.Add(this.Btn3);
             this.Controls.Add(this.Btn2);
@@ -90,6 +101,7 @@
             this.Name = "Form1";
             this.Text = "Git is nice";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -99,6 +111,7 @@
         private System.Windows.Forms.Button Btn2;
         private System.Windows.Forms.Button Btn3;
         private System.Windows.Forms.Button Btn4;
+        private System.Windows.Forms.Label lbl_counter;
     }
 }
 

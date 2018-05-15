@@ -12,6 +12,7 @@ namespace GitDemo
 {
     public partial class Form1 : Form
     {
+        int counter = 0;
         public Form1()
         {
             InitializeComponent();
@@ -22,6 +23,8 @@ namespace GitDemo
         {
             Button triggerd = (Button)sender;
             MessageBox.Show($"You just clicked on Button {triggerd.Text}!");
+            counter++;
+            lbl_counter.Text = $"{counter}";
         }
 
     }
