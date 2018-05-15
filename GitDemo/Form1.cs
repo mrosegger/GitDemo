@@ -24,7 +24,7 @@ namespace GitDemo
             Button triggerd = (Button)sender;
             MessageBox.Show($"You just clicked on Button {triggerd.Text}!");
             counter++;
-            lbl_counter.Text = $"{counter}";
+            lbl_counter.Text = $"Buttons clicked: {counter}";
         }
 
     }

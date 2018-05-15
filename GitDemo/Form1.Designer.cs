@@ -81,12 +81,11 @@
             // 
             // lbl_counter
             // 
-            this.lbl_counter.AutoSize = true;
-            this.lbl_counter.Location = new System.Drawing.Point(132, 265);
+            this.lbl_counter.Location = new System.Drawing.Point(22, 265);
             this.lbl_counter.Name = "lbl_counter";
-            this.lbl_counter.Size = new System.Drawing.Size(13, 13);
+            this.lbl_counter.Size = new System.Drawing.Size(250, 13);
             this.lbl_counter.TabIndex = 4;
-            this.lbl_counter.Text = "0";
+            this.lbl_counter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -101,7 +100,6 @@
             this.Name = "Form1";
             this.Text = "Git is nice";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
