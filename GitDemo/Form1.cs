@@ -19,7 +19,8 @@ namespace GitDemo
 
         private void Btn_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You just clicked on button 1");
+            Button triggerd = (Button)sender;
+            MessageBox.Show($"You just clicked on Button {triggerd.Text}!");
         }
 
     }
