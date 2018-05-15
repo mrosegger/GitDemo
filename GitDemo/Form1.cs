@@ -17,6 +17,7 @@ namespace GitDemo
             InitializeComponent();
         }
 
+        // wird von allen 4 Buttons verwendet
         private void Btn_Click(object sender, EventArgs e)
         {
             Button triggerd = (Button)sender;
