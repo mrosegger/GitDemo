@@ -17,6 +17,8 @@ namespace GitDemo
             InitializeComponent();
         }
 
+        //eher ziemlich nutzloser Kommendar
+        //das ist ein event-handler
         private void Btn_Click(object sender, EventArgs e)
         {
             Button triggerd = (Button)sender;
