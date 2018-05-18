@@ -18,6 +18,7 @@ namespace GitDemo
             InitializeComponent();
         }
 
+        //das ist ein event-handler
         // wird von allen 4 Buttons verwendet
         private void Btn_Click(object sender, EventArgs e)
         {
